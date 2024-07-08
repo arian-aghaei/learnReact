@@ -1,13 +1,17 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+
+@font-face {
+    font-family: IRANsans;
+    font-style: normal;
+    font-weight: 900;
+    src: url("./IRANSansXFaNum-Regular.woff");
+    src: url("./IRANSansXFaNum-Regular.woff")format("woff")
+    ;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.enter {
+    white-space: pre-line;
 }
+
+@tailwind utilities;
