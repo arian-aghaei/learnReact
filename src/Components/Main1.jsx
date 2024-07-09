@@ -28,7 +28,7 @@ function Main1(){
                     <button className="rounded bg-[#1EB28F] text-white p-2">
                         کلاس های حضوری
                     </button>
-                    <button className="text-[#1EB28F] bg-[#E2FAF4] rounded p-2">
+                    <button className="text-[#1EB28F] bg-[#E2FAF4] border-[#1EB28F] border-[0.08rem] rounded p-2">
                         کلاس های آنلاین
                     </button>
                 </div>

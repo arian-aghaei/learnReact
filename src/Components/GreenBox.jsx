@@ -51,7 +51,7 @@ function GreenBox() {
         <div className="p-0 flex  justify-center p-5" dir="rtl">
             <span className="bg-white rounded flex items-center">
                 <img className="p-2" src="phone.png" alt=""/>
-                <span className="p-2 ps-0">
+                <span className="p-2 ps-0 text-[#1EB28F]">
                     برای کسب اطلاعات بیشتر و دریافت راهنمایی با ما تماس بگیرید.
                 </span>
             </span>
