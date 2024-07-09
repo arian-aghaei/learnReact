@@ -13,7 +13,7 @@ function FirstSlide() {
                 </div>
                 <button className="text-white rounded bg-blue-700 p-2 px-3 rounded mt-5">مشاوره رایگان</button>
             </div>
-            <img className="basis-1/2 object-contain h-96" src={'slide11.png'} alt="img"/>
+            <img className="basis-1/2 object-contain h-[33rem]" src={'slide11.png'} alt="img"/>
         </div>
         <div className="my-auto">
             <img className="my-auto" src={'right.png'} alt=""/>

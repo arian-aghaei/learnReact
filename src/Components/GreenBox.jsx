@@ -1,8 +1,11 @@
 function GreenBox() {
     return <div className="bg-gradient-to-b from-[#00E7A1] to-[#13B58E] font-body">
         <div className="container mx-auto text-center">
-            <div className="text-center text-white p-5 text-xl">برای شروع اصولی یادگیری، دوس داری نقشه راهمون رو
-                بدونی؟
+            <div className="flex flex-col">
+                <div className="text-center text-white p-5 pb-0 text-xl">برای شروع اصولی یادگیری، دوس داری نقشه راهمون رو
+                    بدونی؟
+                </div>
+                <img className="mx-auto" src="underline.png" alt=""/>
             </div>
             <div className="flex justify-center gap-5" dir="rtl">
                 <div className="my-auto flex items-center text-center text-white">
@@ -44,12 +47,14 @@ function GreenBox() {
                     <div className="enter">ثــبت نــام در دوره هــا و خرید بسته های آموزشی</div>
                 </div>
             </div>
-            <div>
-                <span className="bg-white rounded p-0" dir="rtl">
-                <img src="phone.png" alt=""/>
-                برای کسب اطلاعات بیشتر و دریافت راهنمایی با ما تماس بگیرید.
+        </div>
+        <div className="p-0 flex  justify-center p-5" dir="rtl">
+            <span className="bg-white rounded flex items-center">
+                <img className="p-2" src="phone.png" alt=""/>
+                <span className="p-2 ps-0">
+                    برای کسب اطلاعات بیشتر و دریافت راهنمایی با ما تماس بگیرید.
                 </span>
-            </div>
+            </span>
         </div>
     </div>
 }
