@@ -6,6 +6,7 @@ import GreenBox from "./Components/GreenBox";
 import Main1 from "./Components/Main1";
 import Vector from "./Components/Vector";
 import Main2 from "./Components/Main2";
+import Courses from "./Components/Courses";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Main1 />
       <Vector />
       <Main2 />
+      <Courses />
     </div>
   )
 }
