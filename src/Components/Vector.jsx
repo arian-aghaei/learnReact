@@ -1,8 +1,8 @@
 function Vector(){
-    return <div className="font-body">
-        <div className="md:relative -z-10">
+    return <div className="font-body overflow-hidden">
+        <div className="md:relative">
             <img className="md:h-60 md:mb-2" src="VectorTop.png" alt=""/>
-            <div className="bg-[url('Rectangle.png')] md:absolute w-screen top-24">
+            <div className="bg-[#E2FAF4] md:absolute overflow-hidden w-screen top-24">
                 <div className="flex flex-col items-center">
                     <div className="text-[#0052CC] text-xl md:text-2xl">
                         نقاط قوت و وجه تمایز ما

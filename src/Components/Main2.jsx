@@ -27,7 +27,7 @@ function Main2() {
 
             </div>
         </div>
-        <div className="relative -z-10 container mx-auto hidden md:block font-body" dir="rtl">
+        <div className="relative  container mx-auto hidden md:block font-body" dir="rtl">
             <div className=" rounded-xl bg-[#23D0A6] text-white mt-16 ps-[2%]">
                 <div className="text-2xl p-3 pt-5">
                     پلتفرم چند رسانه ای کتاب تعاملی اسپیکاپ Speak Up Interactive Book
@@ -47,7 +47,7 @@ function Main2() {
             </div>
             <img className="absolute -top-20 left-10 w-[20%]" src="speakBoy.png" alt=""/>
         </div>
-        <div className="relative -z-10 container mx-auto hidden md:block font-body mt-44" dir="rtl">
+        <div className="relative  container mx-auto hidden md:block font-body mt-44" dir="rtl">
             <div className=" rounded-xl bg-[#E9861B] text-white mt-16 ps-[45%]">
                 <div className="text-2xl p-3 pt-5">
                     کارگاه های زبان English workshops
@@ -67,7 +67,7 @@ function Main2() {
             </div>
             <img className="absolute -top-24 right-10 w-[35%]" src="childs.png" alt=""/>
         </div>
-        <div className="relative -z-10 container mx-auto hidden md:block font-body mt-44" dir="rtl">
+        <div className="relative  container mx-auto hidden md:block font-body mt-44" dir="rtl">
             <div className=" rounded-xl bg-[#23D0A6] text-white mt-16 ps-[8%]">
                 <div className="text-2xl p-3 pt-5">
                     کلاس های آنلاین و حضوری Classes
@@ -87,7 +87,7 @@ function Main2() {
             </div>
             <img className="absolute -top-24 left-10 w-[35%]" src="friends.png" alt=""/>
         </div>
-        <div className="relative -z-10 container mx-auto hidden md:block font-body mt-44" dir="rtl">
+        <div className="relative  container mx-auto hidden md:block font-body mt-44" dir="rtl">
             <div className=" rounded-xl bg-[#E9861B] text-white mt-16 ps-[45%]">
                 <div className="text-2xl p-3 pt-5">
                     پنل اختصاصی زبان آموز Student Zone
@@ -107,7 +107,7 @@ function Main2() {
             </div>
             <img className="absolute -top-24 right-10 w-[35%]" src="teacher.png" alt=""/>
         </div>
-        <div className="relative -z-10 container mx-auto hidden md:block font-body mt-44" dir="rtl">
+        <div className="relative  container mx-auto hidden md:block font-body mt-44" dir="rtl">
             <div className=" rounded-xl bg-[#23D0A6] text-white mt-16 ps-[4%]">
                 <div className="text-2xl p-3 pt-5">
                     سیستم نظارت و پشتیبانی Progress Monitoring System

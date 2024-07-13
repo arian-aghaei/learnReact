@@ -1,16 +1,18 @@
+import logo from './logo1.svg';
+
 function Header() {
     return <>
         <div className="hidden md:block my-3 bg-gradient-to-r from-[#0052CC] via-[#5FD4AF] to-[#0052CC] text-center p-4 font-body text-white">درس خوندن به راهه | بسته های آموزشی با بهترین قیمت</div>
-        <div className="p-3 md:sticky top-0 bg-white " dir="rtl">
+        <div className="p-3 md:sticky top-0 bg-white z-50" dir="rtl">
             <div>
-                <img className="block md:hidden basis-1/4 my-auto object-contain h-8" src={'logo.png'} alt="logo"/>
+                <img className="block md:hidden basis-1/4 my-auto object-contain h-8" src={logo} alt="logo"/>
             </div>
 
             <div className="flex justify-between md:justify-center font-body container mx-auto py-3 px-2 md:px-0" dir="rtl">
                 <div className="flex md:hidden basis-1/2  rounded ">
                     <img className="my-auto p-3 bg-[#DDEBFF]" src="menu.png" alt=""/>
                 </div>
-                <img className="hidden md:flex basis-1/4 my-auto object-contain h-8" src={'logo.png'} alt="logo"/>
+                <img className="hidden md:flex basis-1/4 my-auto object-contain h-8" src={logo} alt="logo"/>
 
                 <div className="hidden md:grid grid-cols-5 gap-3 basis-1/2 my-auto">
                     <div className="text-center hover:text-[#1EB28F]"><a href="#">صفحه اصلی</a></div>
